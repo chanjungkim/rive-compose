@@ -1,3 +1,5 @@
+[![Latest Release](https://img.shields.io/github/v/tag/chanjungkim/rive-compose)](https://github.com/chanjungkim/rive-compose/releases)
+
 ## How to
 
 To get a Git project into your build:
