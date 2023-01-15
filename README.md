@@ -21,3 +21,20 @@ Step 2. Add the dependency
 	        implementation 'com.github.chanjungkim:rive-compose:0.1.0'
 	}
 
+
+Sample:
+
+```!=kotlin
+@Composable
+fun Greeting(name: String) {
+    Column {
+        RiveAnimation(
+            R.raw.demo,
+            modifier = Modifier
+                .height(300.dp)
+                .width(200.dp)
+        )
+        Text(text = "Hello $name!")
+    }
+}
+```
